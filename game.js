@@ -20,7 +20,6 @@ choiceScissor.addEventListener('click',play);
 function getComputerChoice() {
     const randomizer = (min, max) => { return Math.round(Math.random() * (max - min) + min) };
     const cpuChoice = choice[randomizer(0,2)];
-    console.log(`Computer choice: ${cpuChoice}`);
     return cpuChoice;
 }
 
