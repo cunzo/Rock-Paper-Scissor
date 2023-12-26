@@ -1,0 +1,21 @@
+#result{
+    background-color: rgb(255, 247, 0);
+    width: fit-content;
+}
+
+#winCount {
+    background-color: rgb(43, 255, 0);
+}
+
+#drawCount {
+    background-color: rgb(124, 125, 124);
+}
+
+#loseCount {
+    background-color: rgb(222, 20, 20);
+}
+
+#totMatch {
+    background-color: rgb(20, 37, 222);
+    color: white;
+}
